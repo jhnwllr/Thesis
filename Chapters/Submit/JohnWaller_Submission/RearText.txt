@@ -1,0 +1,9 @@
+List of Papers
+List of Papers
+I	Waller, J., & Svensson, E.I. (2016). The measurement of selection when detection is imperfect: How good are naïve methods?. Methods in Ecology and Evolution, 7(5), 538-548.
+II.	Waller, J., Willink B., Tschol M., & Svensson E.I. (2018). The Odonate Phenotypic Database: a new open data resource for comparative studies of an old insect order. www.odonatephenotypicdatabase.org.(Manuscript).
+III.	Waller, J., & Svensson, E.I. (2017). Body size evolution in an old insect order: No evidence for Cope's Rule in spite of fitness benefits of large size. Evolution. 
+IV.	Waller, J. (2018). Is the blunderbuss a misleading visual metaphor for stasis and punctuated evolution? (Manuscript). 
+V.	Waller, J., & Svensson, E.I. (2017). Biotic and abiotic drivers of global body size distributions and macroevolutionary diversification in an old insect order. (Manuscript).
+VI.	Waller, J., Kell, A., Ballesta, M., Giraud, A., Abbott, J., & Svensson, E. (2017). Limited genetic variation for male mating success reveals low evolutionary potential for thermal plasticity in Drosophila melanogaster. bioRxiv, 166801.
+VII.	Waller, J. & Svensson, E.I. (2018). Sexual and natural selection on thermal plasticity and thermal canalization in insects at high latitudes. (Manuscript). 

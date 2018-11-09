@@ -1,0 +1,170 @@
+open();
+
+for (i=0; i< 50; i++) {
+Title = getTitle();
+
+setBackgroundColor(255,255,255); 
+run("Canvas Size...", "width=450 height=300 position=Center");
+
+saveAs("BMP", "C:\\Users\\Owner\\Desktop\\Thesis\\Canvas\\" + Title);
+
+run("Open Next");
+}
+
+
+
+// // Title = getTitle();
+// // setBackgroundColor(0,0,0); 
+// // setForegroundColor(255,255,255);
+
+// // H = getHeight();
+// // W = getWidth();
+
+// // doWand(W-10, H-10);
+// // run("Fill");
+// // doWand(0, 0);
+// // run("Fill");
+// // doWand(W-10, 0);
+// // run("Fill");
+// // doWand(0, H-10);
+// // run("Fill");
+
+
+// // size = 20;
+// // radius = 400;
+
+// // setTool("multipoint");
+// // waitForUser("Action Required", "make point"); // legitimate point
+
+// // run("Measure");
+// // X = getResult("X", 0);
+// // Y = getResult("Y", 0);
+// // run("Clear Results");
+
+// // run("Subtract Background...", "rolling=50 light");
+// // run("Find Edges");
+// // run("Find Edges");
+// // run("Make Binary");
+
+// // run("Fill Holes");
+// // run("Invert");
+// // run("Remove Outliers...", "radius=size threshold=50 which=Dark");
+
+
+// // run("Select None");
+// // makePoint(0, 0);
+// // run("Measure");
+// // pixel = getResult("Mean", 0);
+// // run("Clear Results");
+
+// // print(pixel);
+// // if(pixel == 0)
+// // run("Invert");
+
+
+// // run("Specify...", "width=radius height=radius x=[X] y=[Y] oval centered"); 
+// // run("Fill");
+
+// // run("Measure");
+// // YM = getResult("YM", 0);
+// // BX = getResult("BX", 0);
+// // run("Clear Results");
+
+
+// // doWand(BX - 5, YM);
+
+// // run("Measure");
+// // ang = getResult("Angle", 0);
+// // run("Clear Results");
+// // rot = ang - 180;
+
+// // run("Select None");
+// // run("Revert");
+// // run("Rotate... ", "angle=rot grid=1 interpolation=Bilinear");
+
+// // xC = (W)/2;
+// // yC = (H)/2;
+
+// // px = X;
+// // py = Y;
+
+// // ox = xC;
+// // oy = yC;
+ 
+// // theta = rot/57.2957795; // convert to radians
+// // pxx = cos(theta)*(px-ox) - sin(theta)*(py-oy) + ox;
+// // pyy = sin(theta)*(px-ox) + cos(theta)*(py-oy) + oy;
+
+// // run("Select None");
+
+// // run("Find Edges");
+// // run("Find Edges");
+// // run("Make Binary");
+// // run("Fill Holes");
+
+// // //
+// // run("Select None");
+// // makePoint(0, 0);
+// // run("Measure");
+// // pixel = getResult("Mean", 0);
+// // run("Clear Results");
+
+// // print(pixel);
+// // print(" ");
+// // if(pixel == 255)
+// // run("Invert");
+
+// // run("Invert");
+// // run("Remove Outliers...", "radius=size threshold=10 which=Dark");
+
+// // run("Specify...", "width=radius height=radius x=[pxx] y=[pyy] oval centered"); 
+// // run("Fill");
+
+// // run("Clear Results");
+// // run("Measure");
+// // YM = getResult("YM", 0);
+// // BX = getResult("BX", 0);
+// // run("Clear Results");
+
+// // doWand(BX - 5, YM);
+
+
+// // run("To Bounding Box");
+// // getSelectionBounds(x, y, width, height);
+
+
+// // run("Select None");
+// // run("Revert");
+// // run("Rotate... ", "angle=rot grid=1 interpolation=Bilinear");
+
+// // makeRectangle(x, y, pxx - x, height);
+// // waitForUser("Action Required", "make point"); //
+
+// // type = selectionType();
+// // if (type==-1) 
+// // print("no selection");
+// // else
+// // run("Crop");
+
+// // // save normal image
+// // saveAs("BMP", "C:\\Users\\Owner\\Desktop\\WingsCrop\\" + Title);
+
+
+// // run("Open Next");
+// // }
+
+// // // save binary image
+// // // run("Subtract Background...", "rolling=50 light");
+// // // run("Find Edges");
+// // // run("Find Edges");
+// // // run("Make Binary");
+// // // run("Invert");
+// // // run("Fill Holes");
+// // // run("Invert");
+// // // run("Remove Outliers...", "radius=size threshold=50 which=Dark");
+
+// // // // saveAs("BMP", "C:\\Users\\Owner\\Desktop\\WingsBinary\\" + Title);
+
+// // // // run("Record...");
+
+
